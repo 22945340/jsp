@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,15 +13,19 @@
 	// 자바 코드로 변경 됨!!
 	String b = "hi";
 	%>
-	
-	<p>자바코드 작성 가능 </p>
-	
+
+	<p>자바코드 작성 가능</p>
+
 	<%
 	String a = "hello web app";
 	out.println("<h1>");
 	out.println(a);
 	out.println("</h1>");
+	
 	%>
+	
+	<h1>Lorem ipsum.</h1>
+	<h1>Non mollitia?</h1>
 
 </body>
 </html>
